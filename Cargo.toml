@@ -1,0 +1,9 @@
+[package]
+name = "rustdqn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.16.0"
+rand = "0.8.5"
+rustgan = { git = "https://github.com/vaktibabat/rustgan.git" }
